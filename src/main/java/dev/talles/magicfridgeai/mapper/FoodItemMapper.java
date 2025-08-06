@@ -10,7 +10,7 @@ public class FoodItemMapper {
 
     public FoodItem toEntity(FoodItemRequest request) {
         return new FoodItem(null,
-                request.nome(),
+                request.name(),
                 request.category(),
                 request.quantity(),
                 request.expirationDate());
